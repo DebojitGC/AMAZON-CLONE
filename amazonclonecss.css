@@ -1,0 +1,652 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar{    
+        height: 60px;
+        width: 100%;
+        margin-top: 0%;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .amazonlogo{
+        height: 50px;
+        width: 100px;
+    }
+
+    .border{
+        border: 2px solid transparent;
+    }
+
+    .border:hover{
+        border: 2px solid white;
+    }
+
+    /*BOX2*/
+    .address{
+        font-size:0.85rem ;
+        margin-left: 15px;
+    }
+
+    .deliver{
+        color: #ccc;
+        margin-left: 15px;
+    }
+    .add-icon{
+        display: flex;
+        align-items: center;
+        font-size:1rem;
+        margin-left: 3px;
+    }
+
+    /*BOX3*/
+    .nav-search{
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-search:hover{
+        border: 2px solid orange;
+    }
+
+    .search-select{
+        background-color: #f3f3f3;
+        width: 50px;
+        height: 40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px ;
+        border: none;
+    }
+
+    .search-input{
+        height: 40px;
+        width: 600px;
+        font-size: 1rem;
+        border: none;
+    }
+
+    .search-button{
+        background-color: rgb(189, 189, 93);
+        height: 40px;
+        width:45px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+    }
+
+    /*BOX4*/
+
+    .language{
+        color :white;
+        background-color: black;
+        margin-left:15px ;
+        border-radius: 0;
+    }
+
+    /*BOX5*/
+
+    .account{
+        color: white;
+        margin-left: 15px;
+    }
+
+    .hellologin{
+        font-size: 12px;
+        height: 14px;
+        font-weight: 400;
+    }
+
+    .accountlist{
+        display: flex;
+    }
+
+    /*BOX6*/
+
+    .returnsorders{
+        margin: 15px;
+        border: 2px solid transparent;
+    }
+
+    .returns{
+        font-size: 12px;
+        height: 14px;
+    }
+
+    .returnsorders:hover{
+        border: 2px solid white;
+    }
+
+    /*BOX7*/
+
+    .cart{
+        display: flex;
+        align-items: end;
+    }
+
+    .cart:hover{
+        border: 2px solid white;
+    }
+
+    .cartsize{
+        font-size: 28px;
+    }
+
+    /*2nd-navbar*/
+
+    .panel{
+        height: 39px;
+        width: 100%;
+        background-color: #232f3e;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .panel-all{
+        height: 39px;
+        width: 58px;
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        font-size: 17px;
+        font-weight: 400px;
+    }
+
+    .baricon{   
+        font-size: 17px; 
+    }
+
+    /*panel-tcrgs*/
+
+    .tcrgs{
+        display: flex;
+        width: 70%;
+    }
+
+    .tcrgs p{
+        margin-left: 22px;
+    }
+
+    /*themes*/
+
+    .themes{
+        height:300px;
+        width: 100%;
+        background-image: url(shopping\ cart.jpg);
+        background-size: cover;
+    }
+
+    .message-bar{
+        background-color: #f5f6f6;
+        color: black;
+        font-size: .95rem;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 250px;
+    }
+
+    /*gamingaccessories BOX1*/ /*SHOP*/
+
+    .shop{
+        background-color: #e2e7e6;
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+    }
+
+    .box{
+        height: 420px;
+        width: 23%;
+        border: 2px solid transparent;
+        top: 1px;
+        background-color: white;
+        margin-top: .85rem;
+        margin-bottom: 0.85rem;
+    }
+
+
+    .GACS h2{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .headsets{
+        background-image:url(headsets.jpg);
+        height:110px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 5%;
+        top: 14%;
+        }
+
+    .headsetsone span{
+        position: absolute;
+        top:44% ;
+        left: 5%;
+    }    
+
+    .keyboards{
+        background-image: url(keyboards.jpg);
+        height:120px;
+        width: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+    }
+
+    .keyboardsone span{
+            position: absolute;
+            top: 44%;
+            left: 50%;
+        }
+
+    .computermice{
+        background-image: url(computer\ mic.jpg);
+        height:120px;
+        width: 150px;
+        display: flex;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 60%;
+        left: 1%;
+    }
+
+    .compumice{
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .chairs{
+        background-image: url(chairs.jpg);
+        height:130px;
+        width: 160px;
+        display: flex;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
+
+    .chairs-last{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+    }
+
+    .GACS p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185;
+    }
+
+    /* DEALS IN PCS BOX2 */
+
+    .dealsinpcs h2{
+        position: absolute;
+        left: 5%;
+        top: 5%;
+    }
+
+    .dealsinpcsone{
+        background-image: url(pcs.jpg);
+        height: 312px;
+        width: 320px;
+        background-size: cover;
+        position: absolute;
+        top: 15%;
+        right: 5%;
+    }
+
+    .dealsinpcs span{
+        position: absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185;
+    }
+
+    /*REFRESH YOUR SPACE*/ /* BOX3*/
+
+    .box{
+        height: 420px;
+        width: 23%;
+        border: 2px solid transparent;
+        position: relative ;
+        top: 1px;
+        background-color: white;
+        display: flex;
+    }
+
+    .refreshyourspace h2{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .dining{
+        background-image:url(dining.jpg);
+        height:120px;
+        width: 150px;
+        background-size: cover;
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        }
+
+    .diningone span{
+        position: absolute;
+        top:44% ;
+        left: 5%;
+    }    
+
+    .home{
+        background-image: url(home.jpg);
+        height:120px;
+        width: 150px;
+        background-size: cover;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+    }
+
+    .homeone span{
+            position: absolute;
+            top: 44%;
+            left: 50%;
+        }
+
+    .kitchenone{
+        background-image: url(kitchen.jpg);
+        height:140px;
+        width: 150px;
+        display: flex;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 60%;
+        left:5%;
+    }
+
+    .kitchen{
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .healthandbeauty{
+        background-image: url(health\ and\ beauty.jpg);
+        height:130px;
+        width: 160px;
+        display: flex;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 60%;
+        left: 52%;
+    }
+
+    .healthandbeauty-last{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+    }
+
+    .refreshyourspace p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185;
+    }
+
+    /* Fill your Easter basket with joy BOX4*/
+
+    .giftbusket h2{
+        position: absolute;
+        top:5% ;
+        left: 5%;
+    }
+
+    .giftbusketone{
+        background-image: url(giftbusket.jpg);
+        background-size: contain;
+        height: 300px; ;
+        width: 320px;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+
+    .giftbusket p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185;
+    }
+
+    /*BOX5*/
+
+    .playesparadise h2{
+        position: absolute;
+        top:5% ;
+        left: 5%;
+    }
+
+    .playesparadiseone{
+        background-image: url(playersparadise.jpg);
+        background-size: cover;
+        height:300px ;
+        width: 320px;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+    
+    .playesparadise p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185;
+    }
+
+    /*BOX6*/
+
+    .personalcomputers h2{
+        position: absolute;
+        top:5% ;
+        left: 5%;
+    }
+
+    .personalcomputersone{
+        background-image: url(personal\ computers.jpg);
+        background-size: cover;
+        height:300px ;
+        width: 320px;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+
+    .personalcomputers p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185; 
+    }
+
+    /*BOX7*/
+
+    .dealsonshoes h2{
+        position: absolute;
+        top:5% ;
+        left: 5%;
+    }
+
+    .dealsonshoesone{
+        background-image: url(shoes.jpg);
+        background-size: cover;
+        height:300px ;
+        width: 320px;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+
+    .dealsonshoes p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185; 
+    }
+
+    /*BOX8*/
+
+    .personalbrush h2{
+        position: absolute;
+        top:5% ;
+        left: 5%;
+    }
+
+    .personalbrushone{
+        background-image: url(brush.jpg);
+        background-size: cover;
+        height:300px ;
+        width: 320px;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+
+    .personalbrush p{
+        position:absolute;
+        left: 5%;
+        bottom: 3%;
+        color: #007185; 
+    }
+
+
+    /*FOOTER PANEL*/
+
+    .footer-panel{
+        background-color: #273546;
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* footpanel-two*/
+
+    .footerpanel-two{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #223348;
+        color: white;
+        height:350px
+    }
+
+    .footerpanel-two div{
+        margin-top: 25px;
+    }
+
+
+    .footerall li{
+        margin-top: 15px;
+        list-style-type: none;
+    }
+
+    /*FOOTER 3*/
+
+    .horizontalspace{
+        height: 40px;
+        background-color: #223348;
+        border-bottom: 2px solid #3a4553;
+    }
+
+    /*FOOTER 4*/
+
+    .footer-four{
+        height: 120px;
+        background-color:#223348 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        color: white;
+    }
+
+    .amazonlogo2{
+        height: 20px;
+        width: 100px;
+        color: white;
+        background-image: url(Logo-amazon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .difflanguage {
+        border : 1px solid white;
+        background-color:#223348 ;
+        width: 110px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .currency {
+        border: 1px solid white;
+        background-color:#223348 ;
+        width: 110px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .country{
+        border: 1px solid white;
+        background-color:#223348 ;
+        width: 110px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyright{
+        height: 80px;
+        background-color: #131A22;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright span{
+        display: flex;
+        justify-content: center;
+    }
